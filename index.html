@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Money convert</title>
+</head>
+
+<body>
+    <div class="heading text-center text-white pt-5">
+        <h1 class="">Currency converter</h1>
+        <br>
+    </div>
+
+    <div class="container-fluid text-white py-3">
+
+
+
+        <div class="row bg-primary p-3 ">
+            <div class="col">
+                <label>Amount</label>
+                <input type="number" id="amountInput" name="" />
+            </div>
+
+            <div class="col">
+                <label for="currency">From </label>
+                <select name="fromCurrency" id="fromCurrency">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                    <option value="EUR">EURO</option>
+                    <option value="KRW">KRW</option>
+                </select>
+
+            </div>
+
+            <div class="col">
+                <label for="currency">To </label>
+                <select name="toCurrency" id="toCurrency">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EURO</option>
+                    <option value="KRW">KRW</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="output">
+                <h2 class="">Here what you get: <span id="result">_______</span></h2>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

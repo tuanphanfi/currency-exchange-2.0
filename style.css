@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+label {
+    display: block;
+    font-size: 23px;
+}
+
+select, input {
+    width: 28vw;
+    height: 8vh;
+    border-radius: 12px;
+    font-size: 30px;
+    border: none;
+}
+
+select, input:focus {
+    border-radius: 12px;
+    border: orange;
+}
